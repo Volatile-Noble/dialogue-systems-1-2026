@@ -39,7 +39,7 @@
    ```sh
    yarn
    ```
-   If you encounter build errors during `yarn install` (especially with packages like `p-defer-es5`), try a clean install:
+   If you encounter build errors (e.g., YN0000: Failed with errors in 3s 419ms) during `yarn` (especially with packages like `p-defer-es5`), try a clean install:
    ```sh
    rm -rf node_modules .yarn .pnp.* yarn.lock
    ```
