@@ -8,6 +8,7 @@ export interface DMContext {
   day: string | null;
   time: string | null; 
   wholeday: boolean | null;
+  complete: boolean | null;
   // nextUtterance: string;
 }
 
